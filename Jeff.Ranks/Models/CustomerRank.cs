@@ -1,4 +1,6 @@
-﻿namespace Jeff.Ranks.Models
+﻿using System.Text.Json.Serialization;
+
+namespace Jeff.Ranks.Models
 {
     public class CustomerRank : Customer
     {
@@ -7,6 +9,7 @@
 
         }
 
+        [JsonPropertyName("Rank")]
         public long Rank { get; set; } = -1;
 
         /// <summary>
