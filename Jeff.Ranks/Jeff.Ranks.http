@@ -1,0 +1,6 @@
+@Jeff.Ranks_HostAddress = http://localhost:5042
+
+GET {{Jeff.Ranks_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

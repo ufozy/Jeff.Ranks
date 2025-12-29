@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jeff.Ranks", "Jeff.Ranks\Jeff.Ranks.csproj", "{E539C7C7-052D-4789-9F01-37D473E878A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jeff.Ranks.TestConsole", "Jeff.Ranks.TestConsole\Jeff.Ranks.TestConsole.csproj", "{DC703542-E657-4FA4-B685-7D568F2C5EFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E539C7C7-052D-4789-9F01-37D473E878A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E539C7C7-052D-4789-9F01-37D473E878A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E539C7C7-052D-4789-9F01-37D473E878A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E539C7C7-052D-4789-9F01-37D473E878A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC703542-E657-4FA4-B685-7D568F2C5EFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC703542-E657-4FA4-B685-7D568F2C5EFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC703542-E657-4FA4-B685-7D568F2C5EFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC703542-E657-4FA4-B685-7D568F2C5EFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D137F69A-D1BE-443B-BE0F-82177DB2DB6D}
+	EndGlobalSection
+EndGlobal
