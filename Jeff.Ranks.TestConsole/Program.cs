@@ -38,7 +38,7 @@ var tasks = Enumerable.Range(0, total).Select(async i =>
         var customerId = Random.Shared.Next(1, 10000);
         var score = Random.Shared.Next(-1000, 1000);
 
-        var url = $"https://localhost:7248/customer/{customerId}/score/{score}";
+        var url = $"{host}/customer/{customerId}/score/{score}";
         var resp = await client.PostAsync(url, null);
         Console.WriteLine($"{customerId} {score}");
         if (resp.IsSuccessStatusCode)
